@@ -81,7 +81,7 @@ ul li a:hover {
     padding-left: 56px;
 }
 
-.hero-container h2 {
+.title {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-weight: 900;
@@ -90,14 +90,14 @@ ul li a:hover {
     padding: 0;
     margin: 0;
 }
-.hero-container h2 span {
+.title span {
     padding: 0;
     margin: 0;
     color: #034BFF;
     font-size: 88px;
     line-height: 120%;
 }
-.hero-container h3 {
+.subtitle {
     padding: 0;
     margin: 0;
     font-size: 26px;
@@ -277,12 +277,87 @@ ul li a:hover {
 
 .journey-container {
     background-color: #08111D;
-    height: 241px;
+}
+
+.titles-container {
+    padding: 50px 0 0 56px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.titles-container h2 {
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.titles-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icons-container {
+    max-width: 100%;
+    height: 200px;
+    margin-left: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons-box {
+    margin: 10px 0;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons-box h3 {
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.circle {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #034BFF;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-box h2 {
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.icons-box p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.icon-seperator {
+    border-top: solid 2px #fff;
+    width: 40px;
+    height: 10px;
 }
 
 .events-container {
-    background-color: green;
-    height: 244px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 10px;
 }
 
 .students-container {
