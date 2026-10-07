@@ -32,11 +32,12 @@ ul {
     gap: 16px;
 }   
 
-ul li a {
+a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     color: #0A1222;
     font-size: 12px;
+    line-height: 120%;
 }
 
 ul li a:hover {
@@ -66,8 +67,98 @@ ul li a:hover {
 
 
 .hero {
-    background-color: green;
-    height: 461px;
+    background-color: #08111D;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero-container {
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 56px;
+}
+
+.hero-container h2 {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+}
+.hero-container h2 span {
+    padding: 0;
+    margin: 0;
+    color: #034BFF;
+    font-size: 88px;
+    line-height: 120%;
+}
+.hero-container h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-container p {
+    width: 400px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.hero-container div {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.event-button {
+    width: 176px;
+    height: 42px;
+    border: 1px solid #8eabff;
+    border-radius: 5px;
+    background: none;
+}
+.event-button a {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+
+.primary-button {
+    background-color: #034BFF;
+    width: 184px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+}
+
+.primary-button a {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
 }
 
 .seperator {
