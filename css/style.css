@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 16px 8px;
+    background-color: #fff;
+    height: calc(36px - 16px);
+    max-width: 100%;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 21px;
+    color: #0A1222;
+}
+
+
+ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+}   
+
+ul li a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #0A1222;
+    font-size: 12px;
+}
+
+ul li a:hover {
+    color: #034BFF;
+}
+
+.btn-container {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+.btn-container button {
+    width: 120px;
+    height: 36px;
+    background-color: #034BFF;
+    border: none;
+    border-radius: 5px;
+}
+.btn-container button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+
+.hero {
+    background-color: green;
+    height: 461px;
+}
+
+.seperator {
+    background-color: pink;
+    height: 92px;
+}
+
+.campus-container {
+    background-color: black;
+    height: 282px;
+}
+
+.journey-container {
+    background-color: cyan;
+    height: 241px;
+}
+
+.events-container {
+    background-color: green;
+    height: 244px;
+}
+
+.students-container {
+    background-color: cornflowerblue;
+    height: 164px;
+}
+
+footer {
+    background-color: crimson;
+    height: 283px;
+}
