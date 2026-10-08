@@ -660,52 +660,39 @@ footer {
     justify-content: space-between;
 }
 
-.firstday {
-    height: 400px;
-    width: 100%;
-    background-color: #fff;
+.first-day {
+    background-color: red;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-}
-
-.heading {
-    margin: 50px 56px;
-}
-
-.blue-header {
-    color: var(--blue);
-    font-family: "IBM Plex Mono", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 145%;
-}
-
-.heading > h2 {
-    font-family: "Inter", sans-serif;
-    color: var(--black);
-    font-weight: 900;
-    font-size: 36px;
-}
-
-.campuses {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.campus-card {
-    margin: 0 20px;
-    padding: 10px;
-    padding-bottom: 25px;
-    width: 350px;
-    border: 1px solid #DDE4F0;
+.campus-space {
+    height: 160vh;
+    background-color: pink;
 }
 
-.campus-card > p {
-    margin-top: 15px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 145%;
-    color: #47526A;
+.heading {
+    background-color: cyan;
+    margin-top: 30px;
+    height: 20%;
+    width: 80%;
+    align-items: center;
+}
+
+.cards-container {
+    background-color: cyan;
+    margin-top: 20px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: 40%;
+    height: 90%;
+    margin: 0 2%;
+    background-color: red;
 }
