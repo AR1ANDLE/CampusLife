@@ -661,7 +661,7 @@ footer {
 }
 
 .first-day {
-    background-color: red;
+    background-color: #FFFFFF;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -670,14 +670,13 @@ footer {
 
 .campus-space {
     height: 160vh;
-    background-color: pink;
+    background-color: #F4F7FC;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .heading {
-    background-color: cyan;
     margin-top: 30px;
     height: 20%;
     width: 80%;
@@ -685,7 +684,6 @@ footer {
 }
 
 .cards-container {
-    background-color: cyan;
     margin-top: 20px;
     width: 80%;
     height: 60%;
@@ -760,4 +758,43 @@ footer > .youcode-infos {
     height: 10%;
     width: 90%;
     background-color: white;
+}
+
+.blue-heading {
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--blue);
+}
+
+.heading > h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--black);
+}
+
+.cards-container > .card {
+    background-color: #fff;
+    border: 1px solid #dde4f0;
+    border-radius: 10px;
+}
+
+.card-content {
+    margin-top: 20px;
+    margin-left: 26px;
+}
+
+.cards-container > .card-content > h3 {
+    font-size: 12px;
+}
+
+.heading p, .card-content > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-right: 10px;
+    margin-top: 10PX;
 }
