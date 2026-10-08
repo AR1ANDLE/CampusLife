@@ -6,9 +6,16 @@
     padding: 0;
 }
 
+:root {
+    --blue : #034BFF;
+    --lime : #C7F64A;
+    --black : #0A1222;
+    
+}
+
 nav {
     padding: 16px 8px;
-    background-color: #fff;
+    background-color: white;
     height: calc(36px - 16px);
     max-width: 100%;
     align-items: center;
@@ -20,7 +27,7 @@ nav {
 h1 {
     font-weight: 800;
     font-size: 21px;
-    color: #0A1222;
+    color: var(--black);
 }
 
 
@@ -36,13 +43,13 @@ ul {
 a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
-    color: #0A1222;
+    color: var(--black);
     font-size: 12px;
     line-height: 120%;
 }
 
 ul li a:hover {
-    color: #034BFF;
+    color: var(--blue);
 }
 
 .btn-container {
@@ -55,7 +62,7 @@ ul li a:hover {
 .btn-container button {
     width: 120px;
     height: 36px;
-    background-color: #034BFF;
+    background-color: var(--blue);
     border: none;
     border-radius: 5px;
 }
@@ -95,7 +102,7 @@ ul li a:hover {
 .title span {
     padding: 0;
     margin: 0;
-    color: #034BFF;
+    color: var(--blue);
     font-size: 88px;
     line-height: 120%;
 }
@@ -107,7 +114,7 @@ ul li a:hover {
     right: 80px;
     bottom: 250px;
     transform: rotate(-5deg);
-    color: #c7f64a;
+    color: var(--lime);
     font-weight: 900;
     font-size: 80px;
     font-family: "Inter", sans-serif;
@@ -158,7 +165,7 @@ ul li a:hover {
 }
 
 .primary-button {
-    background-color: #034BFF;
+    background-color: var(--blue);
     width: 184px;
     height: 42px;
     border-radius: 5px;
@@ -216,7 +223,7 @@ ul li a:hover {
 
 
 .infolist svg{
-    color: #034BFF;
+    color: var(--blue);
 }
 
 .seperator > ul {
@@ -241,7 +248,7 @@ ul li a:hover {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 10px;
-    color: #034BFF;
+    color: var(--blue);
 }
 
 .campus-container h2 {
@@ -342,7 +349,7 @@ ul li a:hover {
     margin-top: 10px;
     width: 40px;
     height: 40px;
-    background-color: #034BFF;
+    background-color: var(--blue);
     border-radius: 50%;
     color: #fff;
     display: flex;
@@ -380,7 +387,7 @@ ul li a:hover {
 }
 
 .all-events {
-    background-color: #034BFF;
+    background-color: var(--blue);
     width: 305px;
     height: 214px;
     border-radius: 7px;
@@ -415,7 +422,7 @@ ul li a:hover {
     background-color: #fff;
     font-weight: 700;
     font-size: 12px;
-    color: #034BFF;
+    color: var(--blue);
 }
 
 .event-card {
@@ -453,7 +460,7 @@ ul li a:hover {
 .calendar > h3 {
     font-weight: 400;
     font-size: 10px;
-    color: #034BFF;
+    color: var(--blue);
 }
 
 .event-card > .card-body {
@@ -480,11 +487,11 @@ ul li a:hover {
     margin: 5px 0;
     margin-left: 5px;
     background: none;
-    border: 1px solid #034BFF;
+    border: 1px solid var(--blue);
     width: 200px;
     height: 30px;
     border-radius: 5px;
-    color: #034BFF;
+    color: var(--blue);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -513,7 +520,7 @@ ul li a:hover {
 }
 
 .comment > .author {
-    border-left: 2px solid #034BFF;
+    border-left: 2px solid var(--blue);
     margin-top: 15px;
     /* max-height: 25px; */
     padding-left: 15px;
@@ -653,3 +660,52 @@ footer {
     justify-content: space-between;
 }
 
+.firstday {
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin: 50px 56px;
+}
+
+.blue-header {
+    color: var(--blue);
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+}
+
+.heading > h2 {
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.campuses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campus-card {
+    margin: 0 20px;
+    padding: 10px;
+    padding-bottom: 25px;
+    width: 350px;
+    border: 1px solid #DDE4F0;
+}
+
+.campus-card > p {
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 145%;
+    color: #47526A;
+}
