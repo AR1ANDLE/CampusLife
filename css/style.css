@@ -720,3 +720,44 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.campus-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+footer > .youcode-infos {
+    width: 90%;
+    height: 30vh;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.youcode-infos > .youcode {
+    width: 40%;
+    height: 90%;
+    background-color: red;
+}
+
+.links {
+    width: 25%;
+    height: 90%;
+    background-color: red;
+}
+
+.seperator {
+    width: 90%;
+    margin: 3% 0;
+    border-bottom: 2px solid #fff;
+}
+
+.campus-footer > .campus-copyright {
+    height: 10%;
+    width: 90%;
+    background-color: white;
+}
