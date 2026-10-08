@@ -671,6 +671,9 @@ footer {
 .campus-space {
     height: 160vh;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .heading {
@@ -695,4 +698,25 @@ footer {
     height: 90%;
     margin: 0 2%;
     background-color: red;
+}
+
+.campus-space > .heading {
+    height: 10%;
+    width: 90%;
+}
+
+.cards-gallery {
+    width: 90%;
+    height: 80%;
+    margin: 2% 0;
+    background-color: cyan;
+}
+
+.row {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
