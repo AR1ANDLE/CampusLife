@@ -81,7 +81,7 @@ ul li a:hover {
     padding-left: 56px;
 }
 
-.hero-container h2 {
+.title {
     color: #fff;
     font-family: "Inter", sans-serif;
     font-weight: 900;
@@ -90,14 +90,14 @@ ul li a:hover {
     padding: 0;
     margin: 0;
 }
-.hero-container h2 span {
+.title span {
     padding: 0;
     margin: 0;
     color: #034BFF;
     font-size: 88px;
     line-height: 120%;
 }
-.hero-container h3 {
+.subtitle {
     padding: 0;
     margin: 0;
     font-size: 26px;
@@ -277,21 +277,90 @@ ul li a:hover {
 
 .journey-container {
     background-color: #08111D;
-    height: 241px;
+}
+
+.titles-container {
+    padding: 50px 0 0 56px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.titles-container h2 {
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.titles-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icons-container {
+    max-width: 100%;
+    height: 200px;
+    margin-left: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons-box {
+    margin: 10px 0;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons-box h3 {
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.circle {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #034BFF;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-box h2 {
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.icons-box p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.icon-seperator {
+    border-top: solid 2px #fff;
+    width: 40px;
+    height: 10px;
 }
 
 .events-container {
-<<<<<<< HEAD
-    background-color: green;
-    height: 244px;
-=======
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
     height: 280px;
->>>>>>> 048851e (All events card)
 }
 
 .all-events {
@@ -333,13 +402,187 @@ ul li a:hover {
     color: #034BFF;
 }
 
+.event-card {
+    height: 214px;
+    width: 214px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #dde4f0;
+    font-family: "Inter", sans-serif;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.event-card > .card-body > .calendar {
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar > h2 {
+    margin-top: 3px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #0A1222;
+}
+
+.calendar > h3 {
+    font-weight: 400;
+    font-size: 10px;
+    color: #034BFF;
+}
+
+.event-card > .card-body {
+    position: relative;
+    color: #0A1222;
+}
+
+.card-body > h2 {
+    margin-left: 5px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.card-body > h3 {
+    margin: 5px 0;
+    margin-left: 5px;
+    color: #47526a;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.card-body > button {
+    margin: 5px 0;
+    margin-left: 5px;
+    background: none;
+    border: 1px solid #034BFF;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: #034BFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
 
 .students-container {
-    background-color: cornflowerblue;
+    background-color: #f4f7fc;
     height: 164px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+}
+
+.students-container > img {
+    margin-left: 56px;
+}
+
+.students-container > .comment {
+    align-self: center;
+    max-width: 60%;
+}
+
+.comment > p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.comment > .author {
+    border-left: 2px solid #034BFF;
+    margin-top: 15px;
+    /* max-height: 25px; */
+    padding-left: 15px;
+}
+
+.author > h2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #0A1222;
+}
+
+.author > h3 {
+    font-weight: 400;
+    font-size: 10px;
+    color: #47526a
+}
+
+.students-container > .arrows {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.arrows > svg {
+    margin-left: 14px;
 }
 
 footer {
-    background-color: crimson;
-    height: 283px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    background-color: #101211;
+    height: 290px;
+}
+
+.footer-container {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+.footer-container > .youcode {
+    width: 280px;
+    margin: 0 50px 0 0;
+}
+
+.youcode > h2 {
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.youcode > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #b2bdb3;
+}
+
+.campus {
+    width: 180px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0 50px;
+    padding: 10px 0;
+}
+
+.campus  h3 {
+    color: #c3f85c;
+    font-weight: 400;
+    font-size: 16px;
+    /* padding: 15px 0; */
+}
+
+.campus  a {
+    color: #f4f6f0;
+    padding: 3px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
