@@ -817,6 +817,59 @@ footer > .youcode-infos {
 }
 
 .inscription {
-    height: 120vh;
-    background-color: red;
+    height: 80vh;
+    padding: 50px 56px;
+}
+
+.inscription > div > input {
+    margin: 3px 0 20px 0;
+    width: 80%;
+    height: 5vh;
+    background-color: #fff;
+    border: 1px solid #e2e1e5;
+    border-radius: 5px;
+}
+
+
+.inscription h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.checkbox {
+    width: 80%;
+}
+
+.checkbox-content {
+    margin: 20px 0;
+    height: 25px;  
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content h3 {
+    margin-left: 10px;
+}
+
+.checkbox-content > .custom-checkbox {
+  height: 25px;
+  width: 25px;
+  border: 1px solid #e2e1e5;
+  border-radius: 50%;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.inscription > .primary-button {
+    width: 80%;
+    padding: 10px 15px;
+    justify-content: start;
+    align-items: start;
+    background-color: #5E5BFF;
+    border: 1px solid #5E5BFF;
+    border-radius: 5px;
 }
