@@ -669,7 +669,7 @@ footer {
     align-items: center;
 }
 
-.campus-space {
+.heading-section {
     height: 160vh;
     background-color: #F4F7FC;
     display: flex;
@@ -699,7 +699,7 @@ footer {
     background-color: red;
 }
 
-.campus-space > .heading {
+section > .heading {
     height: 10%;
     width: 90%;
 }
@@ -814,4 +814,9 @@ footer > .youcode-infos {
     line-height: 150%;
     margin-right: 10px;
     margin-top: 10PX;
+}
+
+.inscription {
+    height: 120vh;
+    background-color: red;
 }
